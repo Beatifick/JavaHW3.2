@@ -1,9 +1,9 @@
 public class Main {
     public static void main(String[] args) {
         BmiService service = new BmiService();
-        double heightM = 1.87;
-        int weightKG = 98;
-        int bmi = service.calculate((int) heightM, weightKG);
+        double heightM;
+        int weightKG;
+        int bmi = service.calculate(98, 1.87);
         System.out.println(bmi);
     }
 }
